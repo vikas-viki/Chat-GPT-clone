@@ -11,8 +11,6 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        // name specified in entry will come inside 'name' in bracket.
-        // contenthash fro cach(e)ing
         filename: '[name].[contenthash].js',
         clean: true,
     },
